@@ -30,11 +30,11 @@ class _CounterFunctionScreenState extends State<CounterFunctionScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
-                '$clickCounter',
-                style:
-                    const TextStyle(fontSize: 160, fontWeight: FontWeight.w100),
-              ),
+               Text(
+                  '$clickCounter',
+                  style: const TextStyle(
+                      fontSize: 160, fontWeight: FontWeight.w100),
+                ),
               Text(
                 (clickCounter <= 1) ? 'Click' : 'Clicks',
                 //'Click${clickCounter <= 1 ? '' : 's' otra manera
