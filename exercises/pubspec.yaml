@@ -1,0 +1,6 @@
+name: "exercises"
+dependencies:
+  path: ^1.9.0
+
+environment:
+  sdk: '^3.2.0'
