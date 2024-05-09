@@ -7,9 +7,11 @@ void main() {
   store.addNewProducts({
     "manzana": Product(price: 400, description: "Manzana Roja", stock: 150)
   });
-  store.showProducts();
   print(store.showPriceAllInventory());
   store.searchProduct("platano");
+  store.updateProduct("manzana", Product(description: "Manzana Verde", price: 500, stock: 100));
+  store.showProducts();
+
 }
 
 class Product {
